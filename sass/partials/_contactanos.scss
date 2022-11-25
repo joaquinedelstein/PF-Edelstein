@@ -1,0 +1,81 @@
+@use "./variables";
+
+body{
+    background-color: variables.$valor-beigeclarito;
+}
+.colorNav{
+    background-color:variables.$valor-beigeoscuro;
+  
+}
+.carouselSize {
+    height: 75vh;
+}
+.formularioEntero {
+    align-items: center;
+  }
+.formulario{
+    margin-top: 200px;
+    align-items: center;
+  }
+  form {p{
+    font-size: 19px    ;
+    color: #000000;
+    margin: 30px 0 0 0;
+    align-items: center
+  }
+}
+  legend{
+    font-size: 35px;
+    color: #000000;
+    align-items: center
+  }
+  label{
+    display: block;
+  
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="number"],
+  input[type="radio"],
+  input[type="date"],
+  input[type="time"],
+  textarea,
+  select
+  {
+    padding: 15px;
+    display: block;
+    width: 100%;
+    background-color: #c4aeae;
+   
+  }
+  input[type="radio"]{
+    width: auto;
+    margin: 0;
+  }
+  textarea{
+    height: 320px   ;
+  }
+  .forma-contacto{
+    max-width: 320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+@media (max-width: 768px){
+    body{
+        background-color: variables.$valor-bordolcarito;
+    }
+.colorNav{
+background-color:variables.$valor-bordooscuro;
+}
+
+.container div{
+    background-color:#a786608a;
+}
+.formularioEntero {
+    align-items: center;
+  }
+}

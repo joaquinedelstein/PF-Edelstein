@@ -1,0 +1,31 @@
+@use "./variables";
+
+
+body{
+    background-color: variables.$valor-beigeclarito;
+}
+.colorNav{
+    background-color:variables.$valor-beigeoscuro;
+  
+}
+
+
+ .nosotrosTexto{
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 0px;
+    margin-left: 0px;
+    margin-bottom: 5%;
+  
+ }
+
+@media (max-width: 768px){
+    body{
+        background-color: variables.$valor-bordolcarito;
+    }
+.colorNav{
+background-color:variables.$valor-bordooscuro;
+}
+
+
+}

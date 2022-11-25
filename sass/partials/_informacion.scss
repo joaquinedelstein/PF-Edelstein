@@ -1,0 +1,39 @@
+@use "./variables";
+
+
+body{
+    background-color: variables.$valor-beigeclarito;
+}
+.colorNav{
+    background-color:variables.$valor-beigeoscuro;
+  
+}
+
+
+
+
+        .imagenInfo{
+             width: 10px;
+             height: 10px;
+        }
+
+
+@media (max-width: 768px){
+    body{
+        background-color: variables.$valor-bordolcarito;
+    }
+.colorNav{
+background-color:variables.$valor-bordooscuro;
+}
+
+
+.carouselSize {
+    height: 60vh;
+}
+.container 
+    div{
+    background-color:#a786608a;
+}
+
+
+}

@@ -1,0 +1,54 @@
+@use "./variables";
+
+
+body{
+    background-color: variables.$valor-beigeclarito;
+}
+.colorNav{
+    background-color:variables.$valor-beigeoscuro;
+  
+}
+
+.mainUbicacion{
+    display: flex;
+    padding: 10px;
+ }
+ .ubicacionTexto{
+    width: 50%;
+    margin-top: 3px;
+    margin-left: 20px;
+    margin-left: 20px;
+    align-content: center;
+ }
+ .colegiales_mapa {
+    padding-top: 20px;
+    
+
+ }
+ .mapa_txt2 {
+    font-size: 20px;
+ }
+
+
+
+@media (max-width: 768px){
+    body{
+        background-color: variables.$valor-bordolcarito;
+    }
+.colorNav{
+background-color:variables.$valor-bordooscuro;
+}
+
+.mainUbicacion{
+ flex-direction: column;
+ }
+ .ubicacionTexto{
+    width: 100%;
+    margin-top: 3px;
+    margin-left: 20px;
+    margin-left: 20px;
+    align-content: center;
+ }
+
+
+}

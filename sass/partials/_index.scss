@@ -1,0 +1,45 @@
+@use "./variables";
+
+
+body{
+    background-color: variables.$valor-beigeclarito;
+}
+.colorNav{
+    background-color:variables.$valor-beigeoscuro;
+  
+}
+.carouselSize {
+    height: 75vh;
+}
+.divContainerNav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a{
+        margin-left: 5px;
+    }
+    i{
+        font-size: 30px;
+    }
+}
+.container {
+    div{
+        background-color:#6f1a0796;
+    }
+}
+@media (max-width: 768px){
+    body{
+        background-color: variables.$valor-bordolcarito;
+    }
+.colorNav{
+background-color:variables.$valor-bordooscuro;
+}
+
+.carouselSize {
+    height: 60vh;
+}
+.container div{
+    background-color:#a786608a;
+}
+}

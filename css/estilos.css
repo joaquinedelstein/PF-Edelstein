@@ -1,0 +1,225 @@
+body {
+  background-color: rgba(167, 134, 96, 0.5411764706);
+}
+
+.colorNav {
+  background-color: rgba(167, 134, 96, 0.5411764706);
+}
+
+.carouselSize {
+  height: 75vh;
+}
+
+.divContainerNav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.divContainerNav a {
+  margin-left: 5px;
+}
+.divContainerNav i {
+  font-size: 30px;
+}
+
+.container div {
+  background-color: rgba(111, 26, 7, 0.5882352941);
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color: rgba(104, 65, 56, 0.5882352941);
+  }
+  .colorNav {
+    background-color: rgba(111, 26, 7, 0.5882352941);
+  }
+  .carouselSize {
+    height: 60vh;
+  }
+  .container div {
+    background-color: rgba(167, 134, 96, 0.5411764706);
+  }
+}
+body {
+  background-color: rgba(167, 134, 96, 0.5411764706);
+}
+
+.colorNav {
+  background-color: rgba(167, 134, 96, 0.5411764706);
+}
+
+.carouselSize {
+  height: 75vh;
+}
+
+.formularioEntero {
+  align-items: center;
+}
+
+.formulario {
+  margin-top: 200px;
+  align-items: center;
+}
+
+form p {
+  font-size: 19px;
+  color: #000000;
+  margin: 30px 0 0 0;
+  align-items: center;
+}
+
+legend {
+  font-size: 35px;
+  color: #000000;
+  align-items: center;
+}
+
+label {
+  display: block;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=number],
+input[type=radio],
+input[type=date],
+input[type=time],
+textarea,
+select {
+  padding: 15px;
+  display: block;
+  width: 100%;
+  background-color: #c4aeae;
+}
+
+input[type=radio] {
+  width: auto;
+  margin: 0;
+}
+
+textarea {
+  height: 320px;
+}
+
+.forma-contacto {
+  max-width: 320px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color: rgba(104, 65, 56, 0.5882352941);
+  }
+  .colorNav {
+    background-color: rgba(111, 26, 7, 0.5882352941);
+  }
+  .container div {
+    background-color: rgba(167, 134, 96, 0.5411764706);
+  }
+  .formularioEntero {
+    align-items: center;
+  }
+}
+body {
+  background-color: rgba(167, 134, 96, 0.5411764706);
+}
+
+.colorNav {
+  background-color: rgba(167, 134, 96, 0.5411764706);
+}
+
+.imagenInfo {
+  width: 10px;
+  height: 10px;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color: rgba(104, 65, 56, 0.5882352941);
+  }
+  .colorNav {
+    background-color: rgba(111, 26, 7, 0.5882352941);
+  }
+  .carouselSize {
+    height: 60vh;
+  }
+  .container div {
+    background-color: rgba(167, 134, 96, 0.5411764706);
+  }
+}
+body {
+  background-color: rgba(167, 134, 96, 0.5411764706);
+}
+
+.colorNav {
+  background-color: rgba(167, 134, 96, 0.5411764706);
+}
+
+.nosotrosTexto {
+  width: 100%;
+  margin-top: 5%;
+  margin-left: 0px;
+  margin-left: 0px;
+  margin-bottom: 5%;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color: rgba(104, 65, 56, 0.5882352941);
+  }
+  .colorNav {
+    background-color: rgba(111, 26, 7, 0.5882352941);
+  }
+}
+body {
+  background-color: rgba(167, 134, 96, 0.5411764706);
+}
+
+.colorNav {
+  background-color: rgba(167, 134, 96, 0.5411764706);
+}
+
+.mainUbicacion {
+  display: flex;
+  padding: 10px;
+}
+
+.ubicacionTexto {
+  width: 50%;
+  margin-top: 3px;
+  margin-left: 20px;
+  margin-left: 20px;
+  align-content: center;
+}
+
+.colegiales_mapa {
+  padding-top: 20px;
+}
+
+.mapa_txt2 {
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color: rgba(104, 65, 56, 0.5882352941);
+  }
+  .colorNav {
+    background-color: rgba(111, 26, 7, 0.5882352941);
+  }
+  .mainUbicacion {
+    flex-direction: column;
+  }
+  .ubicacionTexto {
+    width: 100%;
+    margin-top: 3px;
+    margin-left: 20px;
+    margin-left: 20px;
+    align-content: center;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
